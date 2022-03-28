@@ -8,6 +8,7 @@ stages:
     executable_module_path: scoring_service/service.py
     requirements:
       - Flask==1.1.4
+      - markupsafe==2.0.1
       - joblib==0.17.0
       - numpy==1.19.4
       - scikit-learn==0.23.2
