@@ -1,6 +1,6 @@
 version: "1.1"
 pipeline:
-  name: bodywork-serve-model-project
+  name: bodywork-serve-model-project1
   docker_image: bodyworkml/bodywork-core:latest
   DAG: scoring_service
 stages:
